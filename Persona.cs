@@ -1,9 +1,9 @@
 using System;
 
-namespace Personas
+namespace Alumnos
 {
     // Mayuscula al inicio y en singular para todas las clases.
-    class Persona
+    public class Persona
     {
         public string nombre;
         public string apellido;
@@ -24,5 +24,8 @@ namespace Personas
             Console.WriteLine($"Hola, mi nombre es {this.nombre} {this.apellido}");
             
         }
+
+            
     }
+
 }
