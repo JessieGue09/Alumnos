@@ -9,7 +9,7 @@ namespace Alumnos
 
 
 
-        public Materia(string nombreMateria, int semestre)
+        public Materia(string nombre, int semestre)
         {
             this.nombre = nombre;
             this.semestre = semestre;
