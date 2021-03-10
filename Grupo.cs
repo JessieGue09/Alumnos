@@ -7,12 +7,12 @@ namespace Alumnos
     {
         public string nombre;
         public int semestre;
-        list<Alumno> alumnos = new list<Alumno>();
-        list<Alumno> materias = new list<Alumno>();
+        List<Alumno> alumnos = new List<Alumno>();
+        List<Materia> materias = new List<Materia>();
 
         public void AgregarAlumno(Alumno alumno)
         {
-            alumno.Add(alumno);
+            alumnos.Add(alumno);
         }
 
         public void QuitarAlumno(Alumno alumno)
@@ -20,14 +20,14 @@ namespace Alumnos
             alumnos.Remove(alumno);
         }
 
-        public void AgregarMateria(Materia materias)
+        public void AgregarMateria(Materia materia)
         {
             materias.Add(materia);
         }
 
-        public void AgregarMateria(Materia materia)
+        public void QuitarMateria(Materia materia)
         {
-            materia.Remove(materia);
+            materias.Remove(materia);
         }
     
     }
