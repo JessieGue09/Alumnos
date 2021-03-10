@@ -29,6 +29,22 @@ namespace Alumnos
         {
             materias.Remove(materia);
         }
+
+        public void MostrarInfoGrupo()
+        {
+            Console.WriteLine($"El nombre del alumno es: {this.nombre}");
+            Console.WriteLine($"El semestre en el que el alumno esta es: {this.semestre}");
+
+            foreach (Alumno a in alumnos)
+            {
+                Console.WriteLine(a);
+            }
+
+            foreach (Materia m in materias)
+            {
+                Console.WriteLine(m);
+            }
+        }
     
     }
 }
